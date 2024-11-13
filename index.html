@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width initial-scale=1.0">
+ <link rel="stylesheet" href="index.css">
+ <script src="index.js" defer></script>
+ <title>Lin's TicTacToe</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Silkscreen:wght@400;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <div class="title">
+      <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="win-counts">
+      <div id="displayPlayerOneWins">Player 1 Total Wins: 0</div>
+      <div id="displayPlayerTwoWins">Player 2 Total Wins: 0</div>
+    </div>
+    <div class="board" id="board">
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+       <div class="cell" data-cell></div>
+     </div>
+     <div class="winning-message" id="winningMessage">
+       <div id="winningMessageText"></div>
+       <button id="restartButton">Restart</button>
+     </div>
+   </body>
+</html>
